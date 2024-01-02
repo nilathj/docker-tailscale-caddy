@@ -64,10 +64,10 @@ Setup tailscale/tailscale:latest docker container using portainer. Name your con
 
 ## Access your Synology NAS hosted vaultwarden service 
 That is it, now you can access vaultwarden service hosted on your Synology NAS using:
-https://mynas.tailxxxxxx.ts.net/vaultwarden 
+https://mynas.tailxxxxxx.ts.net/vaultwarden from your laptop.  You will need to have the tailscale app installed and running in your laptop.
 
 # Certificate Management
-Caddy supports tailscale.  When Caddy gets an HTTPS request for a *.ts.net site, it gets the  certificate from the machine’s local Tailscale daemon. This is via the .socket file that is exposed from the tailscale docker container.  There’s no configuration required for the certificate, to access *.ts.net sites in caddy. 
+Caddy supports tailscale.  When Caddy gets an HTTPS request for a *.ts.net site, it gets the  certificate from the machine’s local Tailscale daemon. This is via the .socket file that is exposed from the tailscale docker container.  There’s no need to manually install any certificates to access *.ts.net sites from caddy. 
 
 [Caddy  certificates](https://tailscale.com/kb/1190/caddy-certificates?q=TS_PERMIT_CERT_UID)
 
