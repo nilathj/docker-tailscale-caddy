@@ -24,7 +24,7 @@ Access bitwarden or any other docker hosted service on the Synology NAS using HT
 You can follow a guide like this to [install docker and portainer](https://www.wundertech.net/how-to-install-portainer-on-a-synology-nas/)
 
 ## Free ports 80 and 443 on Synology
-I followed this guide to [Free ports 80 and 443 on Synology NAS](://gist.github.com/hjbotha/f64ef2e0cd1e8ba5ec526dcd6e937dd7?permalink_comment_id=4361097#gistcomment-4361097)
+I followed this guide to [Free ports 80 and 443 on Synology NAS](https://gist.github.com/hjbotha/f64ef2e0cd1e8ba5ec526dcd6e937dd7?permalink_comment_id=4361097#gistcomment-4361097)
  * Remember to complete the section which makes the port changes permanent even after restarts of the Synology NAS.
 
 ## Create account in tailscale.com and register devices.
@@ -69,12 +69,12 @@ https://mynas.tailxxxxxx.ts.net/vaultwarden
 # Certificate Management
 Caddy supports tailscale.  When Caddy gets an HTTPS request for a *.ts.net site, it gets the  certificate from the machine’s local Tailscale daemon. This is via the .socket file that is exposed from the tailscale docker container.  There’s no configuration required for the certificate, to access *.ts.net sites in caddy. 
 
-[Caddy  certificates](://tailscale.com/kb/1190/caddy-certificates?q=TS_PERMIT_CERT_UID)
+[Caddy  certificates](https://tailscale.com/kb/1190/caddy-certificates?q=TS_PERMIT_CERT_UID)
 
 
 # References
-[docker_tailscale_and_caddy_with__a_love_story](://www.reddit.com/r/Tailscale/comments/104y6nq/docker_tailscale_and_caddy_with__a_love_story/)
+[docker_tailscale_and_caddy_with__a_love_story](www.reddit.com/r/Tailscale/comments/104y6nq/docker_tailscale_and_caddy_with__a_love_story/)
 
-[Free ports 80 and 443 on Synology NAS](://gist.github.com/hjbotha/f64ef2e0cd1e8ba5ec526dcd6e937dd7?permalink_comment_id=4361097#gistcomment-4361097)
+[Free ports 80 and 443 on Synology NAS](https://gist.github.com/hjbotha/f64ef2e0cd1e8ba5ec526dcd6e937dd7?permalink_comment_id=4361097#gistcomment-4361097)
 
-[What network ports are used by DSM services?](://kb.synology.com/en-global/DSM/tutorial/What_network_ports_are_used_by_Synology_services)
+[What network ports are used by DSM services?](https://kb.synology.com/en-global/DSM/tutorial/What_network_ports_are_used_by_Synology_services)
