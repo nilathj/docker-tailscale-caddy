@@ -1,0 +1,15 @@
+{
+    debug
+}
+
+(network_paths) {
+    redir /vaultwarden /vaultwarden/
+    redir /vault /vaultwarden/
+    handle_path /vaultwarden/* {
+        reverse_proxy /* 192.168.0.215:8880
+    }
+}
+
+mynas.tailxxxx.ts.net {
+    import network_paths
+}

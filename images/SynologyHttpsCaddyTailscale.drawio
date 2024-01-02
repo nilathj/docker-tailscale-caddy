@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" modified="2024-01-02T09:44:31.675Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="TjPNP1VLtT8n1Mf6EfLi" version="22.1.16" type="device">
+  <diagram name="Page-1" id="kbW7EViHJdm7uRLBGNEE">
+    <mxGraphModel dx="2074" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V565z-G3xUs5O00be6KH-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="130" y="470" width="550" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="V565z-G3xUs5O00be6KH-2" value="&lt;h1&gt;Synology NAS&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="470" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V565z-G3xUs5O00be6KH-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="550" width="350" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="V565z-G3xUs5O00be6KH-6" value="&lt;h1&gt;Docker&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="550" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V565z-G3xUs5O00be6KH-8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="450" y="585" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="V565z-G3xUs5O00be6KH-9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="450" y="750" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="V565z-G3xUs5O00be6KH-11" value="&lt;h1 style=&quot;font-size: 16px;&quot;&gt;tailscale&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="462.5" y="600" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V565z-G3xUs5O00be6KH-12" value="&lt;h1 style=&quot;font-size: 16px;&quot;&gt;caddy&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="470" y="760" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V565z-G3xUs5O00be6KH-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="505" y="430" as="sourcePoint" />
+            <mxPoint x="504.5" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V565z-G3xUs5O00be6KH-15" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: &amp;quot;Anonymous Pro&amp;quot;, monospace, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 20px; line-height: 30px;&quot;&gt;https://mynas.tailxxxxxx.ts.net/vaultwarden&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="400" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V565z-G3xUs5O00be6KH-16" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="750" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="V565z-G3xUs5O00be6KH-17" value="&lt;h1 style=&quot;font-size: 11px;&quot;&gt;vaultwarden&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="248.75" y="760" width="77.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V565z-G3xUs5O00be6KH-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.814;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="V565z-G3xUs5O00be6KH-4" target="V565z-G3xUs5O00be6KH-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="600" as="sourcePoint" />
+            <mxPoint x="440" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V565z-G3xUs5O00be6KH-19" value="VPN tunnel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="462.5" y="630" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V565z-G3xUs5O00be6KH-20" value="into port 443 (https)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="462.5" y="720" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V565z-G3xUs5O00be6KH-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="V565z-G3xUs5O00be6KH-9" target="V565z-G3xUs5O00be6KH-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="600" as="sourcePoint" />
+            <mxPoint x="440" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V565z-G3xUs5O00be6KH-22" value="reverse proxy&lt;br&gt;to local 192.x.x.x port 8880 http" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="340" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
