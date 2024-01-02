@@ -73,7 +73,7 @@ Caddy supports tailscale.  When Caddy gets an HTTPS request for a *.ts.net site,
 
 
 # References
-[docker_tailscale_and_caddy_with__a_love_story](www.reddit.com/r/Tailscale/comments/104y6nq/docker_tailscale_and_caddy_with__a_love_story/)
+[docker_tailscale_and_caddy_with__a_love_story](https://www.reddit.com/r/Tailscale/comments/104y6nq/docker_tailscale_and_caddy_with_https_a_love_story/)
 
 [Free ports 80 and 443 on Synology NAS](https://gist.github.com/hjbotha/f64ef2e0cd1e8ba5ec526dcd6e937dd7?permalink_comment_id=4361097#gistcomment-4361097)
 
