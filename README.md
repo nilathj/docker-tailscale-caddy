@@ -1,4 +1,3 @@
-# Synology HTTPS docker tailscale caddy
 Use Tailscale, a software defined network with Caddy as a reverse proxy to access Docker hosted services running on your Synology NAS over HTTPS. Tailscale makes it easy to securely connect to your Synology NAS devices over WireGuard.
 
 ![SynologyHttpsCaddyTailscale](images/SynologyHttpsCaddyTailscale.png)
