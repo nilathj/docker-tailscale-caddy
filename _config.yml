@@ -1,0 +1,3 @@
+title: Setting up secure access to Synology hosted docker services
+description: Use Tailscale and Caddy to securely access Synology Docker hosted Vaultwarden.  
+theme: jekyll-theme-Modernist
